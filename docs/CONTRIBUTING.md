@@ -8,7 +8,7 @@ Por ahora el indice lo mantiene un solo curador (revision manual de todo). Cuand
 
 ## Formato de un recurso
 
-Cada entrada en `data.json` (dentro de `resources`) debe tener:
+Cada entrada en `site/data.json` (dentro de `resources`) debe tener:
 
 ```json
 {
@@ -30,5 +30,5 @@ Cada entrada en `data.json` (dentro de `resources`) debe tener:
 
 - Descripciones especificas, no genericas copiadas del sitio del recurso.
 - Sin duplicados (revisar por `id` y por `link`).
-- Categoria debe existir en el array `categories` de `data.json`.
+- Categoria debe existir en el array `categories` de `site/data.json`.
 - Nunca confiar en ediciones directas a `main` — siempre via revision.

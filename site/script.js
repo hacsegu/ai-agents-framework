@@ -5,7 +5,7 @@ const state = {
 };
 
 async function loadData() {
-  const res = await fetch("../data.json");
+  const res = await fetch("./data.json");
   state.data = await res.json();
   render();
 }

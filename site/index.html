@@ -27,7 +27,7 @@
 
   <script src="script.js"></script>
   <script>
-    fetch("../data.json").then(r => r.json()).then(d => {
+    fetch("./data.json").then(r => r.json()).then(d => {
       document.getElementById("meta").textContent =
         `${d.resources.length} recursos · actualizado ${d.metadata.lastUpdated}`;
     });

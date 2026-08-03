@@ -6,7 +6,11 @@ Mantenido por Felix Sandoval (RUTA DIGITAL).
 
 ## Que es
 
-Un indice navegable que responde: "¿existe tal herramienta? ¿donde encuentro X framework?". No es una plataforma compleja: es una fuente de verdad (`data.json`) mas un sitio estatico que la lee.
+Un indice navegable que responde: "¿existe tal herramienta? ¿donde encuentro X framework?". No es una plataforma compleja: es una fuente de verdad (`site/data.json`) mas un sitio estatico que la lee.
+
+## Sitio en vivo
+
+https://framework.aisenko.com
 
 ## Categorias
 
@@ -28,8 +32,8 @@ Las categorias no estan cerradas: se agregan o ajustan a medida que el indice cr
 
 ```
 ai-agents-framework/
-├── data.json          # Fuente de verdad: categorias + recursos
-├── site/               # Sitio estatico que lee data.json
+├── site/               # Se despliega tal cual a Cloudflare Pages
+│   ├── data.json      # Fuente de verdad: categorias + recursos
 │   ├── index.html
 │   ├── styles.css
 │   └── script.js
@@ -45,6 +49,12 @@ ai-agents-framework/
 cd site
 python -m http.server 8080
 # abrir http://localhost:8080
+```
+
+## Desplegar
+
+```bash
+wrangler pages deploy site/ --project-name=ai-agents-framework
 ```
 
 ## Contribuir
