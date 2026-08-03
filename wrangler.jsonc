@@ -1,0 +1,17 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ai-agents-framework",
+  "compatibility_date": "2026-08-03",
+  "observability": {
+    "enabled": true
+  },
+  "assets": {
+    "directory": "site"
+  },
+  "routes": [
+    { "pattern": "framework.aisenko.com", "custom_domain": true }
+  ],
+  "compatibility_flags": [
+    "nodejs_compat"
+  ]
+}
