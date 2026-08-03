@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Agents Framework — Indice de recursos</title>
+  <meta name="description" content="Indice curado de modelos, herramientas, tecnicas de prompting, automatizacion y frameworks para construir agentes de IA." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>AI Agents Framework</h1>
+    <p>Indice curado de recursos para desarrollo de agentes de IA</p>
+    <div class="meta" id="meta"></div>
+  </header>
+
+  <div class="controls">
+    <input type="text" id="search" placeholder="Buscar recursos, tags, descripciones..." />
+    <div class="filters" id="filters"></div>
+  </div>
+
+  <main id="results"></main>
+
+  <footer>
+    Mantenido por RUTA DIGITAL &middot; <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Codigo en GitHub</a>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    fetch("../data.json").then(r => r.json()).then(d => {
+      document.getElementById("meta").textContent =
+        `${d.resources.length} recursos · actualizado ${d.metadata.lastUpdated}`;
+    });
+  </script>
+</body>
+</html>

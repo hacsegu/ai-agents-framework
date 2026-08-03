@@ -1,0 +1,193 @@
+{
+  "metadata": {
+    "version": "1.1.0",
+    "lastUpdated": "2026-08-02",
+    "totalResources": 104,
+    "maintainer": "Felix Sandoval",
+    "repository": "https://github.com/USUARIO/ai-agents-framework"
+  },
+  "categories": [
+    {
+      "id": "modelos-ia",
+      "title": "Modelos de IA",
+      "icon": "🧠",
+      "description": "Modelos conversacionales, abiertos y especializados"
+    },
+    {
+      "id": "herramientas-dev",
+      "title": "Herramientas para Devs",
+      "icon": "🛠️",
+      "description": "Frameworks, librerias, SDKs y herramientas de desarrollo"
+    },
+    {
+      "id": "prompting",
+      "title": "Prompting y Tecnicas",
+      "icon": "✍️",
+      "description": "Estrategias para mejorar respuestas de IA"
+    },
+    {
+      "id": "automatizacion",
+      "title": "Automatizacion",
+      "icon": "🔄",
+      "description": "Herramientas para automatizar flujos y procesos"
+    },
+    {
+      "id": "agentes",
+      "title": "Frameworks de Agentes",
+      "icon": "🤖",
+      "description": "Librerias para construir agentes autonomos"
+    },
+    {
+      "id": "cursos",
+      "title": "Cursos y Educacion",
+      "icon": "🎓",
+      "description": "Recursos de aprendizaje y documentacion oficial"
+    },
+    {
+      "id": "mcp",
+      "title": "MCP (Model Context Protocol)",
+      "icon": "🔌",
+      "description": "Estandar abierto para conectar LLMs con herramientas y datos: spec, SDKs y servidores de referencia"
+    },
+    {
+      "id": "observabilidad",
+      "title": "Observabilidad y Monitoreo",
+      "icon": "🔭",
+      "description": "Tracing, evaluacion, costo y monitoreo de agentes y apps LLM en produccion"
+    },
+    {
+      "id": "plataformas-hosted",
+      "title": "Plataformas Hosted (SaaS)",
+      "icon": "☁️",
+      "description": "Agentes y builders de agentes que corren como servicio, sin infraestructura propia"
+    },
+    {
+      "id": "self-hosted",
+      "title": "Self-Hosted y On-Premise",
+      "icon": "🏠",
+      "description": "Motores de inferencia y interfaces para correr modelos localmente o en servidor propio"
+    },
+    {
+      "id": "arquitectura-agentes",
+      "title": "Arquitectura y Patrones de Agentes",
+      "icon": "💻",
+      "description": "Papers, guias y frameworks sobre como se disenan y coordinan agentes"
+    }
+  ],
+  "resources": [
+    { "id": "claude-sonnet-5", "category": "modelos-ia", "title": "Claude (familia Sonnet/Opus/Haiku)", "description": "Modelos conversacionales de Anthropic con fuerte razonamiento, uso de herramientas y programacion.", "link": "https://www.anthropic.com/claude", "tags": ["Conversacional", "Razonamiento", "Tool use"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "gpt-4o", "category": "modelos-ia", "title": "GPT-4o / GPT-5", "description": "Modelos multimodales de OpenAI para texto, vision y voz.", "link": "https://openai.com/", "tags": ["Multimodal", "Conversacional"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "gemini", "category": "modelos-ia", "title": "Gemini", "description": "Familia de modelos multimodales de Google DeepMind, integrados con el ecosistema Google.", "link": "https://deepmind.google/technologies/gemini/", "tags": ["Multimodal", "Google"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "llama", "category": "modelos-ia", "title": "Llama", "description": "Familia de modelos abiertos de Meta, usados para despliegue local y fine-tuning.", "link": "https://www.llama.com/", "tags": ["Open source", "Self-hosted"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "deepseek", "category": "modelos-ia", "title": "DeepSeek", "description": "Modelos abiertos de alto rendimiento a bajo costo, populares para inferencia economica.", "link": "https://www.deepseek.com/", "tags": ["Open source", "Bajo costo"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "mistral", "category": "modelos-ia", "title": "Mistral", "description": "Modelos abiertos y comerciales europeos, orientados a eficiencia.", "link": "https://mistral.ai/", "tags": ["Open source", "Eficiencia"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "grok", "category": "modelos-ia", "title": "Grok", "description": "Modelo conversacional de xAI, integrado a la plataforma X.", "link": "https://x.ai/", "tags": ["Conversacional"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "qwen", "category": "modelos-ia", "title": "Qwen", "description": "Familia de modelos abiertos de Alibaba, con variantes multilingues y de codigo.", "link": "https://qwenlm.github.io/", "tags": ["Open source", "Multilingue"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "groq", "category": "modelos-ia", "title": "Groq", "description": "Infraestructura de inferencia ultrarrapida (LPU) para modelos abiertos.", "link": "https://groq.com/", "tags": ["Inferencia rapida", "API"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "ollama", "category": "modelos-ia", "title": "Ollama", "description": "Ejecuta modelos abiertos localmente con un CLI simple.", "link": "https://ollama.com/", "tags": ["Self-hosted", "Local"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "openrouter", "category": "modelos-ia", "title": "OpenRouter", "description": "API unificada para acceder a decenas de modelos de distintos proveedores.", "link": "https://openrouter.ai/", "tags": ["API", "Multi-proveedor"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+
+    { "id": "n8n", "category": "herramientas-dev", "title": "n8n", "description": "Plataforma de automatizacion de flujos con nodos, self-hostable.", "link": "https://n8n.io/", "tags": ["Automatizacion", "Self-hosted"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "retell-ai", "category": "herramientas-dev", "title": "Retell AI", "description": "Plataforma para construir agentes de voz conversacionales.", "link": "https://www.retellai.com/", "tags": ["Voz", "Agentes"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "twilio", "category": "herramientas-dev", "title": "Twilio", "description": "API de telefonia, SMS y mensajeria programable.", "link": "https://www.twilio.com/", "tags": ["Telefonia", "API"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "whatsapp-business-api", "category": "herramientas-dev", "title": "WhatsApp Business API", "description": "API oficial de Meta para integrar mensajeria de WhatsApp en productos.", "link": "https://business.whatsapp.com/products/business-platform", "tags": ["Mensajeria", "API"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "cloudflare-workers", "category": "herramientas-dev", "title": "Cloudflare Workers", "description": "Ejecucion serverless en el edge, baja latencia global.", "link": "https://workers.cloudflare.com/", "tags": ["Serverless", "Edge"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "cloudflare-pages", "category": "herramientas-dev", "title": "Cloudflare Pages", "description": "Hosting estatico gratuito con despliegue continuo desde Git.", "link": "https://pages.cloudflare.com/", "tags": ["Hosting", "Estatico"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "supabase", "category": "herramientas-dev", "title": "Supabase", "description": "Backend as a service sobre Postgres: base de datos, auth y storage.", "link": "https://supabase.com/", "tags": ["Base de datos", "BaaS"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "notion-api", "category": "herramientas-dev", "title": "Notion API", "description": "API para leer y escribir paginas, bases de datos y bloques de Notion.", "link": "https://developers.notion.com/", "tags": ["API", "Productividad"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "make", "category": "herramientas-dev", "title": "Make (antes Integromat)", "description": "Automatizacion visual de flujos entre apps, alternativa a Zapier.", "link": "https://www.make.com/", "tags": ["Automatizacion", "No-code"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "vercel", "category": "herramientas-dev", "title": "Vercel", "description": "Plataforma de despliegue para frontend y funciones serverless.", "link": "https://vercel.com/", "tags": ["Hosting", "Serverless"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "kie-ai", "category": "herramientas-dev", "title": "KIE.ai", "description": "API para generacion de imagenes y video con modelos de IA a bajo costo.", "link": "https://kie.ai/", "tags": ["Imagenes", "Video", "API"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+
+    { "id": "chain-of-thought", "category": "prompting", "title": "Chain of Thought", "description": "Tecnica de razonamiento paso a paso para mejorar respuestas complejas.", "link": "https://www.promptingguide.ai/techniques/cot", "tags": ["Razonamiento", "Tecnica"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "few-shot-learning", "category": "prompting", "title": "Few-shot Learning", "description": "Incluir ejemplos en el prompt para guiar el formato y estilo de salida.", "link": "https://www.promptingguide.ai/techniques/fewshot", "tags": ["Ejemplos", "Tecnica"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "system-prompts", "category": "prompting", "title": "System Prompts", "description": "Instrucciones de alto nivel que definen rol, tono y limites del modelo.", "link": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/system-prompts", "tags": ["Rol", "Configuracion"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "prompt-templates", "category": "prompting", "title": "Prompt Templates", "description": "Plantillas reutilizables para estandarizar prompts en produccion.", "link": "https://www.promptingguide.ai/", "tags": ["Reutilizable", "Produccion"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "rag", "category": "prompting", "title": "RAG (Retrieval Augmented Generation)", "description": "Combina busqueda en documentos propios con generacion de texto para respuestas con contexto actualizado.", "link": "https://www.promptingguide.ai/techniques/rag", "tags": ["Busqueda", "Contexto"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "function-calling", "category": "prompting", "title": "Function Calling / Tool Use", "description": "Permite que el modelo invoque funciones o herramientas externas de forma estructurada.", "link": "https://docs.anthropic.com/en/docs/build-with-claude/tool-use", "tags": ["Herramientas", "Estructurado"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "structured-output", "category": "prompting", "title": "Structured Output (JSON mode)", "description": "Forzar al modelo a responder en un esquema JSON valido y predecible.", "link": "https://www.promptingguide.ai/", "tags": ["JSON", "Esquema"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "prompt-caching", "category": "prompting", "title": "Prompt Caching", "description": "Reutiliza partes fijas de un prompt para reducir costo y latencia en llamadas repetidas.", "link": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching", "tags": ["Costo", "Latencia"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+
+    { "id": "n8n-automatizacion", "category": "automatizacion", "title": "n8n", "description": "Automatizacion de flujos con nodos visuales y ejecucion self-hosted o en la nube.", "link": "https://n8n.io/", "tags": ["Flujos", "Self-hosted"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "make-automatizacion", "category": "automatizacion", "title": "Make.com", "description": "Automatizacion visual entre cientos de apps, sin codigo.", "link": "https://www.make.com/", "tags": ["No-code", "Integraciones"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "zapier", "category": "automatizacion", "title": "Zapier", "description": "Automatizacion entre apps mediante triggers y acciones, pionero del sector.", "link": "https://zapier.com/", "tags": ["No-code", "Integraciones"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "airtable-automations", "category": "automatizacion", "title": "Airtable Automations", "description": "Automatizaciones nativas dentro de bases de datos tipo hoja de calculo de Airtable.", "link": "https://www.airtable.com/platform/automations", "tags": ["Base de datos", "No-code"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "ifttt", "category": "automatizacion", "title": "IFTTT", "description": "Automatizaciones simples tipo 'si esto entonces aquello' para apps y dispositivos.", "link": "https://ifttt.com/", "tags": ["No-code", "IoT"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "github-actions", "category": "automatizacion", "title": "GitHub Actions", "description": "Automatizacion de CI/CD y tareas programadas directamente en repositorios de GitHub.", "link": "https://github.com/features/actions", "tags": ["CI/CD", "DevOps"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "cron-jobs", "category": "automatizacion", "title": "Cron Jobs", "description": "Programacion de tareas recurrentes a nivel de sistema operativo o servidor.", "link": "https://en.wikipedia.org/wiki/Cron", "tags": ["Programacion", "Servidor"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+
+    { "id": "crewai", "category": "agentes", "title": "CrewAI", "description": "Framework para orquestar equipos de agentes con roles y tareas definidas.", "link": "https://www.crewai.com/", "tags": ["Multi-agente", "Python"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "langgraph", "category": "agentes", "title": "LangGraph", "description": "Framework para construir agentes con flujos de control tipo grafo de estados.", "link": "https://www.langchain.com/langgraph", "tags": ["Grafo de estados", "Python"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "langchain", "category": "agentes", "title": "LangChain", "description": "Framework para encadenar llamadas a modelos, herramientas y fuentes de datos.", "link": "https://www.langchain.com/", "tags": ["Cadenas", "Python/JS"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "autogpt", "category": "agentes", "title": "AutoGPT", "description": "Uno de los primeros agentes autonomos de proposito general basados en LLM.", "link": "https://github.com/Significant-Gravitas/AutoGPT", "tags": ["Autonomo", "Open source"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "openai-assistants", "category": "agentes", "title": "OpenAI Assistants API", "description": "API de OpenAI para crear asistentes con memoria, herramientas y archivos.", "link": "https://platform.openai.com/docs/assistants/overview", "tags": ["API", "Memoria"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "llamaindex", "category": "agentes", "title": "LlamaIndex", "description": "Framework enfocado en indexar y conectar datos propios con LLMs (RAG).", "link": "https://www.llamaindex.ai/", "tags": ["RAG", "Datos"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "haystack", "category": "agentes", "title": "Haystack", "description": "Framework open source para pipelines de busqueda y agentes con LLMs.", "link": "https://haystack.deepset.ai/", "tags": ["Pipelines", "Open source"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "cloudflare-agents-sdk", "category": "agentes", "title": "Cloudflare Agents SDK", "description": "SDK para construir agentes que corren de forma serverless en Cloudflare Workers.", "link": "https://developers.cloudflare.com/agents/", "tags": ["Serverless", "Edge"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "openai-agents-sdk", "category": "agentes", "title": "OpenAI Agents SDK", "description": "SDK oficial de OpenAI para construir agentes de texto y voz con herramientas y guardrails.", "link": "https://openai.github.io/openai-agents-python/", "tags": ["SDK", "Voz"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+
+    { "id": "anthropic-docs", "category": "cursos", "title": "Anthropic Docs", "description": "Documentacion oficial de Claude: API, prompting, tool use y mejores practicas.", "link": "https://docs.anthropic.com/", "tags": ["Documentacion", "Oficial"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "deeplearning-ai", "category": "cursos", "title": "DeepLearning.AI", "description": "Cursos cortos y gratuitos sobre LLMs, agentes y prompt engineering.", "link": "https://www.deeplearning.ai/short-courses/", "tags": ["Cursos", "Gratuito"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "openai-docs", "category": "cursos", "title": "OpenAI Docs", "description": "Documentacion oficial de la API de OpenAI, guias y ejemplos.", "link": "https://platform.openai.com/docs/", "tags": ["Documentacion", "Oficial"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "prompting-guide", "category": "cursos", "title": "Prompt Engineering Guide", "description": "Guia comunitaria completa de tecnicas de prompting con ejemplos.", "link": "https://www.promptingguide.ai/", "tags": ["Guia", "Comunidad"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "huggingface-learn", "category": "cursos", "title": "Hugging Face Learn", "description": "Cursos gratuitos sobre NLP, agentes y modelos abiertos con Hugging Face.", "link": "https://huggingface.co/learn", "tags": ["Cursos", "Gratuito"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "google-ai-courses", "category": "cursos", "title": "Google AI Courses", "description": "Cursos y certificaciones oficiales de Google sobre IA generativa.", "link": "https://www.cloudskillsboost.google/paths", "tags": ["Cursos", "Certificacion"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+
+    { "id": "mcp-spec", "category": "mcp", "title": "Model Context Protocol", "description": "Estandar abierto de Anthropic para conectar LLMs con herramientas y fuentes de datos mediante una arquitectura cliente-servidor.", "link": "https://modelcontextprotocol.io/", "tags": ["Estandar", "Anthropic"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "mcp-specification", "category": "mcp", "title": "MCP Specification", "description": "Especificacion tecnica formal del protocolo: mensajes, transporte y capacidades.", "link": "https://modelcontextprotocol.io/specification", "tags": ["Especificacion", "Referencia"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "mcp-quickstart", "category": "mcp", "title": "MCP Quickstart", "description": "Guia oficial para crear tu primer servidor o cliente MCP paso a paso.", "link": "https://modelcontextprotocol.io/quickstart", "tags": ["Tutorial", "Setup"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "mcp-github-org", "category": "mcp", "title": "MCP GitHub Organization", "description": "Organizacion oficial en GitHub con la especificacion, SDKs y discusiones del protocolo.", "link": "https://github.com/modelcontextprotocol", "tags": ["Open source", "Comunidad"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "mcp-servers", "category": "mcp", "title": "MCP Servers (Reference Implementations)", "description": "Repositorio oficial con servidores de ejemplo: filesystem, Google Drive, PostgreSQL, SQLite y mas.", "link": "https://github.com/modelcontextprotocol/servers", "tags": ["Ejemplos", "Servidores"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "mcp-python-sdk", "category": "mcp", "title": "MCP Python SDK", "description": "SDK oficial en Python para construir clientes y servidores MCP.", "link": "https://github.com/modelcontextprotocol/python-sdk", "tags": ["SDK", "Python"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "mcp-typescript-sdk", "category": "mcp", "title": "MCP TypeScript SDK", "description": "SDK oficial en TypeScript para construir clientes y servidores MCP.", "link": "https://github.com/modelcontextprotocol/typescript-sdk", "tags": ["SDK", "TypeScript"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "awesome-mcp-servers", "category": "mcp", "title": "Awesome MCP Servers", "description": "Lista comunitaria curada de servidores MCP de terceros por categoria.", "link": "https://github.com/punkpeye/awesome-mcp-servers", "tags": ["Lista curada", "Comunidad"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "anthropic-mcp-course", "category": "mcp", "title": "Introduction to Model Context Protocol", "description": "Curso corto oficial de Anthropic para aprender a usar e implementar MCP.", "link": "https://anthropic.skilljar.com/introduction-to-model-context-protocol", "tags": ["Curso", "Oficial"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "mcp-code-execution", "category": "mcp", "title": "Code Execution with MCP", "description": "Articulo de ingenieria de Anthropic sobre como ejecutar codigo de forma segura a traves de MCP.", "link": "https://www.anthropic.com/engineering/code-execution-with-mcp", "tags": ["Ingenieria", "Seguridad"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "claude-docs-mcp", "category": "mcp", "title": "Claude Docs: MCP", "description": "Documentacion de Anthropic sobre como usar MCP con Claude Desktop y Claude Code.", "link": "https://docs.anthropic.com/en/docs/agents-and-tools/mcp", "tags": ["Documentacion", "Claude"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+
+    { "id": "langfuse", "category": "observabilidad", "title": "Langfuse", "description": "Plataforma open-source de observabilidad para LLMs: tracing, versionado de prompts y control de costos. Self-hosted o cloud.", "link": "https://langfuse.com/", "tags": ["Open source", "Tracing"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "langsmith", "category": "observabilidad", "title": "LangSmith", "description": "Plataforma de LangChain para debugging, testing y monitoreo de aplicaciones LLM.", "link": "https://smith.langchain.com/", "tags": ["LangChain", "Debugging"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "braintrust", "category": "observabilidad", "title": "Braintrust", "description": "Plataforma centrada en evaluacion continua de aplicaciones LLM antes y despues de produccion.", "link": "https://www.braintrust.dev/", "tags": ["Evaluacion", "Testing"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "helicone", "category": "observabilidad", "title": "Helicone", "description": "Observabilidad LLM basada en proxy: logging, costos y cache con una linea de codigo.", "link": "https://www.helicone.ai/", "tags": ["Proxy", "Costos"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "arize-phoenix", "category": "observabilidad", "title": "Arize Phoenix", "description": "Herramienta open-source de tracing y evaluacion para aplicaciones LLM y agentes.", "link": "https://phoenix.arize.com/", "tags": ["Open source", "Evaluacion"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "mlflow-ai", "category": "observabilidad", "title": "MLflow (AI/LLM tracking)", "description": "Plataforma open-source de MLOps con modulo especifico para tracking y evaluacion de LLMs.", "link": "https://mlflow.org/", "tags": ["Open source", "MLOps"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "datadog-llm", "category": "observabilidad", "title": "Datadog LLM Observability", "description": "Monitoreo de aplicaciones LLM en produccion integrado a la suite de Datadog.", "link": "https://www.datadoghq.com/product/llm-observability/", "tags": ["Enterprise", "Produccion"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "confident-ai", "category": "observabilidad", "title": "Confident AI", "description": "Plataforma de evaluacion de LLMs construida sobre el framework open-source DeepEval.", "link": "https://www.confident-ai.com/", "tags": ["Evaluacion", "Testing"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "deepeval", "category": "observabilidad", "title": "DeepEval", "description": "Framework open-source para evaluar respuestas de LLMs con metricas tipo unit-test.", "link": "https://github.com/confident-ai/deepeval", "tags": ["Open source", "Testing"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "openllmetry", "category": "observabilidad", "title": "OpenLLMetry", "description": "Extension open-source de OpenTelemetry para instrumentar y trazar aplicaciones LLM.", "link": "https://github.com/traceloop/openllmetry", "tags": ["Open source", "OpenTelemetry"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "wandb-weave", "category": "observabilidad", "title": "Weights & Biases Weave", "description": "Herramienta de W&B para trazar, evaluar y monitorear aplicaciones LLM y agentes.", "link": "https://wandb.ai/site/weave/", "tags": ["Tracing", "Evaluacion"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "fiddler-ai", "category": "observabilidad", "title": "Fiddler AI", "description": "Plataforma enterprise de observabilidad y monitoreo de modelos, incluyendo LLMs.", "link": "https://www.fiddler.ai/", "tags": ["Enterprise", "Monitoreo"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+
+    { "id": "agentgpt", "category": "plataformas-hosted", "title": "AgentGPT", "description": "Plataforma web para configurar y desplegar agentes autonomos sin instalar nada.", "link": "https://agentgpt.reworkd.ai/", "tags": ["Autonomo", "No-code"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "superagi", "category": "plataformas-hosted", "title": "SuperAGI", "description": "Framework y plataforma para construir, entrenar y desplegar agentes autonomos concurrentes.", "link": "https://superagi.com/", "tags": ["Autonomo", "Multi-agente"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "babyagi", "category": "plataformas-hosted", "title": "BabyAGI", "description": "Uno de los primeros experimentos de agente autonomo que crea y prioriza sus propias tareas.", "link": "https://github.com/yoheinakajima/babyagi", "tags": ["Autonomo", "Open source"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "agency-swarm", "category": "plataformas-hosted", "title": "Agency Swarm", "description": "Framework para crear organizaciones de agentes colaborativos con roles definidos.", "link": "https://github.com/VRSEN/agency-swarm", "tags": ["Multi-agente", "Open source"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "agentscope", "category": "plataformas-hosted", "title": "AgentScope", "description": "Plataforma de Alibaba para construir aplicaciones multi-agente robustas y eficientes.", "link": "https://github.com/modelscope/agentscope", "tags": ["Multi-agente", "Open source"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "relevance-ai", "category": "plataformas-hosted", "title": "Relevance AI", "description": "Plataforma no-code para construir y desplegar agentes de IA para equipos de negocio.", "link": "https://relevanceai.com/", "tags": ["No-code", "Negocio"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "lindy-ai", "category": "plataformas-hosted", "title": "Lindy AI", "description": "Constructor de agentes de IA para automatizar tareas de negocio (email, calendario, CRM).", "link": "https://www.lindy.ai/", "tags": ["No-code", "Negocio"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "flowise", "category": "plataformas-hosted", "title": "Flowise", "description": "Builder visual open-source para construir agentes y flujos LLM arrastrando nodos.", "link": "https://flowiseai.com/", "tags": ["Open source", "No-code"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "stack-ai", "category": "plataformas-hosted", "title": "Stack AI", "description": "Plataforma no-code para construir agentes y flujos de IA de nivel empresarial.", "link": "https://www.stack-ai.com/", "tags": ["No-code", "Enterprise"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "multion", "category": "plataformas-hosted", "title": "MultiOn", "description": "Agente que navega y actua en sitios web reales en nombre del usuario, via API.", "link": "https://www.multion.ai/", "tags": ["Browser agent", "API"], "status": "beta", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "adept-ai", "category": "plataformas-hosted", "title": "Adept AI", "description": "Empresa pionera en agentes que operan software e interfaces web como lo haria una persona.", "link": "https://www.adept.ai/", "tags": ["Browser agent", "Enterprise"], "status": "beta", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+
+    { "id": "localai", "category": "self-hosted", "title": "LocalAI", "description": "Alternativa open-source y self-hosted a la API de OpenAI, corre modelos locales.", "link": "https://localai.io/", "tags": ["Open source", "API compatible"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "lm-studio", "category": "self-hosted", "title": "LM Studio", "description": "Aplicacion de escritorio para descargar y correr modelos abiertos localmente con interfaz grafica.", "link": "https://lmstudio.ai/", "tags": ["Desktop", "GUI"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "text-generation-webui", "category": "self-hosted", "title": "Text Generation WebUI", "description": "Interfaz web tipo 'AUTOMATIC1111' para correr y experimentar con modelos de texto locales.", "link": "https://github.com/oobabooga/text-generation-webui", "tags": ["Open source", "GUI"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "vllm", "category": "self-hosted", "title": "vLLM", "description": "Motor de inferencia open-source de alto rendimiento para servir LLMs a escala.", "link": "https://github.com/vllm-project/vllm", "tags": ["Open source", "Alto rendimiento"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "llama-cpp", "category": "self-hosted", "title": "llama.cpp", "description": "Implementacion en C/C++ para correr modelos tipo Llama en CPU con recursos minimos.", "link": "https://github.com/ggml-org/llama.cpp", "tags": ["Open source", "CPU"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "gpt4all", "category": "self-hosted", "title": "GPT4All", "description": "Ecosistema para correr chatbots LLM de forma privada en tu propia computadora.", "link": "https://www.nomic.ai/gpt4all", "tags": ["Privado", "Desktop"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "jan-ai", "category": "self-hosted", "title": "Jan", "description": "Alternativa open-source a ChatGPT que corre 100% offline en tu computador.", "link": "https://jan.ai/", "tags": ["Open source", "Offline"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "privategpt", "category": "self-hosted", "title": "PrivateGPT", "description": "Interactua con tus documentos usando LLMs 100% locales, sin conexion a internet.", "link": "https://github.com/zylon-ai/private-gpt", "tags": ["Open source", "RAG local"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "anythingllm", "category": "self-hosted", "title": "AnythingLLM", "description": "Aplicacion todo-en-uno self-hosted para chatear con documentos propios usando cualquier LLM.", "link": "https://anythingllm.com/", "tags": ["Open source", "RAG local"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "koboldai", "category": "self-hosted", "title": "KoboldAI", "description": "Interfaz local para escritura creativa y chat asistido por IA con modelos propios.", "link": "https://github.com/KoboldAI/KoboldAI-Client", "tags": ["Open source", "Creativo"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+
+    { "id": "react-paper", "category": "arquitectura-agentes", "title": "ReAct: Synergizing Reasoning and Acting", "description": "Paper original que introduce el patron ReAct: alternar razonamiento y accion en agentes LLM.", "link": "https://arxiv.org/abs/2210.03629", "tags": ["Paper", "Patron"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "tree-of-thoughts-paper", "category": "arquitectura-agentes", "title": "Tree of Thoughts", "description": "Paper que propone explorar multiples cadenas de razonamiento en forma de arbol antes de decidir.", "link": "https://arxiv.org/abs/2305.10601", "tags": ["Paper", "Razonamiento"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "building-effective-agents", "category": "arquitectura-agentes", "title": "Building Effective Agents", "description": "Guia de ingenieria de Anthropic sobre cuando usar workflows simples vs agentes complejos.", "link": "https://www.anthropic.com/research/building-effective-agents", "tags": ["Guia", "Anthropic"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "multi-agent-research-system", "category": "arquitectura-agentes", "title": "How We Built Our Multi-Agent Research System", "description": "Articulo de ingenieria de Anthropic sobre coordinacion de multiples agentes en produccion.", "link": "https://www.anthropic.com/engineering/multi-agent-research-system", "tags": ["Caso real", "Anthropic"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "autogen", "category": "arquitectura-agentes", "title": "AutoGen", "description": "Framework de Microsoft para orquestar conversaciones entre multiples agentes LLM.", "link": "https://microsoft.github.io/autogen/", "tags": ["Multi-agente", "Microsoft"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "openai-swarm", "category": "arquitectura-agentes", "title": "OpenAI Swarm", "description": "Framework experimental de OpenAI para patrones ligeros de coordinacion multi-agente.", "link": "https://github.com/openai/swarm", "tags": ["Multi-agente", "Experimental"], "status": "beta", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "twelve-factor-agents", "category": "arquitectura-agentes", "title": "12-Factor Agents", "description": "Guia de principios practicos para construir agentes LLM confiables en produccion.", "link": "https://github.com/humanlayer/12-factor-agents", "tags": ["Guia", "Buenas practicas"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" },
+    { "id": "temporal", "category": "arquitectura-agentes", "title": "Temporal", "description": "Motor de orquestacion de workflows durables, usado como backend de coordinacion para agentes de larga duracion.", "link": "https://temporal.io/", "tags": ["Orquestacion", "Workflows"], "status": "active", "dateAdded": "2026-08-02", "lastUpdated": "2026-08-02" }
+  ]
+}
